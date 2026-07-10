@@ -8,33 +8,28 @@
 </head>
 <body>
 
-  <!-- Header / Hero Section -->
-  <header>
-    <div>
-      <!-- Ask Copilot to teach you about `.svg`. 🙂 You'll need to resize the logo with CSS. -->
-      <img src="img/intel-header-logo.svg" alt="Intel Logo" />
-      <!-- Main Heading -->
-      <h1>
-        Sustainability Through the Ages
-      </h1>
+<header class="hero">
+  <div class="hero-content">
+    <img src="img/intel-header-logo.svg" alt="Intel Logo" class="logo">
 
-      <!-- Subheading / Description -->
-      <p>
-        Explore Intel's journey through time, discovering how our commitment
-        to innovation has shaped a more sustainable future for technology 
-        and our planet.
-      </p>
-    </div>
-  </header>
+    <h1>Sustainability Through the Ages</h1>
 
-  <!-- Timeline Cards Section -->
-  <section>
+    <p>
+      Explore Intel's journey through time, discovering how our commitment
+      to innovation has shaped a more sustainable future for technology
+      and our planet.
+    </p>
+  </div>
+</header>
+
+<section class="timeline">
 
     <!-- Card 1: 1968 -->
-    <div>
+    <div class="card">
       <h2>1968</h2>
       <h3>Intel Founded</h3>
       <!-- Add image -->
+       <img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Gordon_Moore_with_Robert_Noyce_at_Intel_in_1970.png" alt = "founders">
       <p>
         Robert Noyce and Gordon Moore rename the newly formed company 
         NM Electronics to Intel Corporation, laying the foundation for 
@@ -43,10 +38,10 @@
     </div>
 
     <!-- Card 2: 1971 -->
-    <div>
+    <div class="card">
       <h2>1971</h2>
       <h3>First Microprocessor</h3>
-      <!-- Add image -->
+      <img src = "https://cdn.pixabay.com/photo/2018/10/02/22/06/processor-3720053_1280.jpg" alt = "microprocessor">
       <p>
         Intel debuts the 4004, the world's first commercial microprocessor, 
         igniting the microprocessor revolution and propelling the future 
@@ -55,10 +50,10 @@
     </div>
 
     <!-- Card 3: 1978 -->
-    <div>
+    <div class="card">
       <h2>1978</h2>
       <h3>8086 Processor</h3>
-      <!-- Add image -->
+      <img src = "https://upload.wikimedia.org/wikipedia/commons/2/21/Ic-photo-Intel--D8086--%288086-CPU%29.png" alt = "8086 Processor">
       <p>
         Launch of the 8086 processor, establishing the x86 architecture 
         that drives countless PCs and servers in the modern era.
@@ -66,10 +61,10 @@
     </div>
 
     <!-- Card 4: 1985 -->
-    <div>
+    <div class="card">
       <h2>1985</h2>
       <h3>386 Processor</h3>
-      <!-- Add image -->
+      <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Motherboard_Intel_386.jpg/960px-Motherboard_Intel_386.jpg?_=20220717225840" alt = "368">
       <p>
         Intel introduces the 386 processor with 32-bit architecture, 
         ushering in a new era of performance and multitasking for 
@@ -78,10 +73,10 @@
     </div>
 
     <!-- Card 5: 2006 -->
-    <div>
+    <div class="card">
       <h2>2006</h2>
       <h3>Peak GHG Emissions</h3>
-      <!-- Add image -->
+      <img src = "https://images.pexels.com/photos/30401032/pexels-photo-30401032.png?_gl=1*osvp2*_ga*Mzk3ODg5NTYxLjE3ODM2NDE4MzA.*_ga_8JE65Q40S6*czE3ODM2NDE4MzAkbzEkZzEkdDE3ODM2NDE4MzQkajU2JGwwJGgw" alt = "greenhouse gas">
       <p>
         This year marks Intel's highest annual greenhouse gas emissions 
         for operations. Over subsequent years, Intel invests heavily in 
@@ -91,10 +86,13 @@
     </div>
 
     <!-- Card 6: 2020 -->
-    <div>
+    <div class="card">
       <h2>2020</h2>
       <h3>RISE Strategy</h3>
-      <!-- Add image -->
+      <figure>
+        <img src = "https://futurumgroup.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-17-at-8.03.05-PM.png.webp" alt = "RISE">
+        <figcaption><small>Credit to Futurum for image</small></figcaption>
+      </figure>
       <p>
         Intel launches its RISE (Responsible, Inclusive, Sustainable, 
         Enabling) strategy and 2030 goals, aiming to drive industry-wide 
@@ -103,10 +101,10 @@
     </div>
 
     <!-- Card 7: 2022 -->
-    <div>
+    <div class="card">
       <h2>2022</h2>
       <h3>Net-Zero By 2040</h3>
-      <!-- Add image -->
+      <img src = "https://upload.wikimedia.org/wikipedia/commons/b/ba/Intel_in_Rio_Rancho.jpg" alt = "gren">
       <p>
         Intel announces its commitment to achieve net-zero greenhouse 
         gas emissions (Scope 1 and 2) across its global operations 
@@ -115,10 +113,10 @@
     </div>
 
     <!-- Card 8: 2023 -->
-    <div>
+    <div class="card">
       <h2>2023</h2>
       <h3>Renewable Electricity</h3>
-      <!-- Add image -->
+      <img src = "https://i2.pickpik.com/photos/532/665/142/electricity-sun-wind-forces-of-nature-preview.jpg" alt = "renew">
       <p>
         The company achieves 99% renewable electricity usage worldwide, 
         helping to drastically lower carbon emissions and driving progress 
@@ -127,10 +125,10 @@
     </div>
 
     <!-- Card 9: 2024 -->
-    <div>
+    <div class="card">
       <h2>2024</h2>
       <h3>Sustainability Summit</h3>
-      <!-- Add image -->
+      <img src = "https://i1.pickpik.com/photos/559/491/805/earth-scion-leaf-sustainability-preview.jpg" alt = "sustainability">
       <p>
         Intel hosts its first Sustainability Summit, uniting suppliers, 
         government officials, and industry leaders to collaborate on 
@@ -138,6 +136,8 @@
       </p>
     </div>
   </section>
-  <p>Scroll to view timeline | Hover over cards to learn more!</p>
+  <p class="footer-text">
+    Scroll to view timeline | Hover over cards to learn more!
+</p>
 </body>
 </html>
